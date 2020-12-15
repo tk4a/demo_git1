@@ -8,4 +8,8 @@ class FirstController {
 
     @GetMapping
     fun hello() = "Hello"
+
+    @GetMapping("/hello")
+    fun hello2() = "Hello man"
+		
 }
